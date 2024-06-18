@@ -4,6 +4,8 @@ import OpenAI from "openai";
 import mongoose from "mongoose";
 import { config, uploader } from "cloudinary";
 import cors from "cors";
+import os from "os";
+
 
 
 dotenv.config();
